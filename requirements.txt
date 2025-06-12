@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pandas
+joblib
+python-multipart
+google-generativeai
