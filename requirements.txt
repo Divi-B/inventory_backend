@@ -4,3 +4,4 @@ pandas
 joblib
 python-multipart
 google-generativeai
+dotenv

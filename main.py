@@ -12,10 +12,13 @@ import json
 from dotenv import load_dotenv
 import google.generativeai as genai
 from fastapi.encoders import jsonable_encoder
+import os
 
 # Load environment variables
 load_dotenv()
-api_key = "AIzaSyDThv38MTqhP_wMFTiMTpTmoT-XZpQBBQ0"
+
+api_key = os.getenv("GEMINI_API_KEY")
+
 
 # Configure Gemini if API key is available
 if api_key:
